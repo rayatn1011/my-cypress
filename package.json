@@ -1,0 +1,26 @@
+{
+    "name": "my-cypress",
+    "version": "1.0.0",
+    "description": "my-cypress",
+    "main": "index.js",
+    "scripts": {
+        "cypress": "cypress open",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "cypress": "^10.8.0",
+        "eslint": "^8.23.1",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-cypress": "^2.12.1",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-n": "^15.3.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-promise": "^6.0.1",
+        "prettier": "2.7.1"
+    }
+}
